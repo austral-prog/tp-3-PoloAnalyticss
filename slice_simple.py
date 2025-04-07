@@ -1,13 +1,9 @@
 def slice_simple():
     texto = "Awesome"
+    texto= texto.lower()
+    print(texto[:3])
+    print(texto[2:5])
     
-    letras3 = texto[:3].lower()
-    print(letras3)
     
-    otras3 = texto[2:5].lower
-    print(otras3)
+    print(texto[0:4] + texto[-3:])
     
-    primeraparte = texto[:4].lower
-    segundaparte = texto[-3:].lower
-    print(primeraparte + segundaparte)
-slice_simple()
